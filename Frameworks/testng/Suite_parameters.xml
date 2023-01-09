@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="parameters">
+
+     <parameter name="browser_name" value="chrome"/>
+     <parameter name="appurl" value="http://facebook.com"/>
+     <parameter name="id" value="nishu"/>
+     <parameter name="pd" value="nishu@123"/>
+ 
+     <test name="test1" verbose="2">
+     <classes>
+     <class name="Frameworks.testng.Get_parameters_from_suite
+     "></class>
+     </classes>
+    </test>
+ </suite>

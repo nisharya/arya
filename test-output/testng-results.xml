@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[title displayedSign up for Facebook | Facebook]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63214" started-at="2023-01-04T13:26:11 IST" finished-at="2023-01-04T13:27:14 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63214" started-at="2023-01-04T13:26:11 IST" finished-at="2023-01-04T13:27:14 IST">
+      <class name="Frameworks.testng.Webdriver_testcase">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Frameworks.testng.Webdriver_testcase@1f021e6c]" name="beforeClass" is-config="true" duration-ms="51913" started-at="2023-01-04T13:26:11 IST" finished-at="2023-01-04T13:27:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Frameworks.testng.Webdriver_testcase@1f021e6c]" name="beforeMethod" is-config="true" duration-ms="2902" started-at="2023-01-04T13:27:03 IST" finished-at="2023-01-04T13:27:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verify_signup()[pri:0, instance:Frameworks.testng.Webdriver_testcase@1f021e6c]" name="verify_signup" duration-ms="2652" started-at="2023-01-04T13:27:06 IST" finished-at="2023-01-04T13:27:08 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[title displayedSign up for Facebook | Facebook]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_signup -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:Frameworks.testng.Webdriver_testcase@1f021e6c]" name="afterMethod" is-config="true" duration-ms="239" started-at="2023-01-04T13:27:08 IST" finished-at="2023-01-04T13:27:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Frameworks.testng.Webdriver_testcase.verify_signup()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Frameworks.testng.Webdriver_testcase@1f021e6c]" name="afterClass" is-config="true" duration-ms="5371" started-at="2023-01-04T13:27:09 IST" finished-at="2023-01-04T13:27:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Frameworks.testng.Webdriver_testcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
