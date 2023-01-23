@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="default">
+
+ <parameter name="browser_name" value="ie"/>
+ <parameter name="appurl" value="http://facebook.com"/>
+ <parameter name="id" value="nishu"/>
+ <parameter name="pd" value="nishu@123"/>
+ 
+ <test name="Test1" verbose="2">
+ <classes>
+ <class name=" practise.Parameters_suite"></class>
+ </classes>
+ </test>
+ </suite>

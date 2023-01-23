@@ -11,18 +11,18 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class Check_brokenlinks
 {
- static void main(String[] args) throws IOException
+ static <HttpURLConnection> void main(String[] args) throws IOException
 	{
 		String homepage="https://www.instagram.com/";
 		String url="";
 		HttpURLConnection huc=null;
 		int respcode=200;
 		
-		WebDriverManager.chromedriver().setup();
+		
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(homepage);
@@ -47,9 +47,7 @@ public class Check_brokenlinks
 			
 			try {
 				huc=(HttpURLConnection)(new URL(url).openConnection());
-				huc.setRequestMethod("head");
-				huc.connect();
-				respcode=huc.getResponseCode();
+				
 				
 				if (respcode>=400) {
 					System.out.println(url+"broken");
